@@ -31,11 +31,11 @@ export function App() {
         <p className="text-sm text-light-grey mb-6 leading-1">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
 
         <div className="flex justify-between mb-6">
-          <input type="button" value={1} className="bg-dark-blue w-10.5 h-10.h rounded-b-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(1)} />
-          <input type="button" value={2} className="bg-dark-blue w-10.5 h-10.h rounded-b-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(2)} />
-          <input type="button" value={3} className="bg-dark-blue w-10.5 h-10.h rounded-b-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(3)} />
-          <input type="button" value={4} className="bg-dark-blue w-10.5 h-10.h rounded-b-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(4)} />
-          <input type="button" value={5} className="bg-dark-blue w-10.5 h-10.h rounded-b-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(5)} />
+          <input type="button" value={1} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(1)} />
+          <input type="button" value={2} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(2)} />
+          <input type="button" value={3} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(3)} />
+          <input type="button" value={4} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(4)} />
+          <input type="button" value={5} className="bg-dark-blue w-10.5 h-10.5 rounded-full text-medium-grey text-sm font-bold focus:bg-medium-grey focus:text-white sm:w-13 sm:y-13 hover:bg-orange hover:text-white hover:cursor-pointer" onClick={() => handleAlteraValor(5)} />
         </div>
 
         <button className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer" onClick={handleSubmit}>Submit</button>
