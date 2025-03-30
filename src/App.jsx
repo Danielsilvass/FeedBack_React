@@ -21,7 +21,7 @@ export function App() {
 
   return(
     submited === false ? (
-      <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-2-103">
+      <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-w-103">
         <div className="bg-dark-blue w-fit p-4 rounded-full mb-4">
           <img src={iconStar} alt="Icon Star" />
         </div>
@@ -41,7 +41,7 @@ export function App() {
         <button className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer" onClick={handleSubmit}>Submit</button>
     </div>
     ) : (
-    <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-2-103">
+    <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-w-103">
       <img className="mx-auto mb-6" src={Illustrationthankyou} alt="Illustration thank you" />
       <p className="text-orange bg-dark-blue w-fit mx-auto px-3 py-1.25 rounded-3xl mb-6">You selected {AlteraValor} out of 5</p>
 
