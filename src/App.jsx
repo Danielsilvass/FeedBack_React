@@ -7,22 +7,11 @@ export function App() {
   const [AlteraValor, setAlteraValor] = useState(0)
   const [ submited, setSumited] = useState(false)
 
-  
-
-  function handleSubmit() {
-    if (AlteraValor !== 0) {
-      setSumited(true)
-      return
-    }
-
-    alert("Plese, chouse a note!")
-  }
-
   return(
     submited === false ? (
-      <CardIncial setAlteraValor={setAlteraValor} handleSubmit={handleSubmit} />
+      <CardIncial setAlteraValor={setAlteraValor}  setSumited={setSumited} AlteraValor={AlteraValor}/>
     ) : (
-      <CardFinal AlteraValor={AlteraValor}/>
+      <CardFinal AlteraValor={AlteraValor} />
     )
   )
 }

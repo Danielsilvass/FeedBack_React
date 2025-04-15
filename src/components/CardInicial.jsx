@@ -1,7 +1,17 @@
-import iconStar from "../../public/iconStar.svg"
+import iconStar from "../../public/icon-star.svg"
 import { InputButton } from "./InputButton"
 
-export function CardIncial({setAlteraValor, handleSubmit}) {
+export function CardIncial({setAlteraValor, AlteraValor, setSumited}) {
+
+    function handleSubmit() {
+        if (AlteraValor !== 0) {
+            setSumited(true)
+            return
+        }
+
+            alert("Plese, chouse a note!")
+            
+        }
 
     return (
         <div className="bg-gradient-dark text-white mx-6 p-6 rounded-2xl font-overpass max-w-103">
