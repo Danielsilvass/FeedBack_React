@@ -31,7 +31,7 @@ export function CardIncial({setAlteraValor, AlteraValor, setSumited}) {
                 <InputButton setAlteraValor={setAlteraValor} value={5}/>
             </div>
 
-            <button className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer" onClick={handleSubmit}>Submit</button>
+            <button className="bg-orange w-full uppercase tracking-1 font-bold rounded-3xl text-sm py-3 hover:bg-white hover:text-orange cursor-pointer duration-500" onClick={handleSubmit}>Submit</button>
         </div>
     )
 } 
