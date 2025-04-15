@@ -7,9 +7,7 @@ export function App() {
   const [AlteraValor, setAlteraValor] = useState(0)
   const [ submited, setSumited] = useState(false)
 
-  function handleAlteraValor(valor) {
-    setAlteraValor(valor)
-  }
+  
 
   function handleSubmit() {
     if (AlteraValor !== 0) {
@@ -22,7 +20,7 @@ export function App() {
 
   return(
     submited === false ? (
-      <CardIncial handleValor={AlteraValor} handleSubmit={handleSubmit} />
+      <CardIncial setAlteraValor={setAlteraValor} handleSubmit={handleSubmit} />
     ) : (
       <CardFinal AlteraValor={AlteraValor}/>
     )
